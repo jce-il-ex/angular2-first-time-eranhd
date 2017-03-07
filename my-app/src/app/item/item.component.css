@@ -1,0 +1,11 @@
+.box{
+    width: 42%;
+    padding: 2%;
+    margin: 2%;
+    text-align: center;
+    float: left;
+    background-color: #abcdef;
+    height: 100px;
+    line-height: 100px;
+
+}

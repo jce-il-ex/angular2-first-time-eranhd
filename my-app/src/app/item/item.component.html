@@ -1,0 +1,6 @@
+<div class="box">
+  {{item.id}}
+  <span *ngIf="item.text">{{item.text}}</span>
+  <input [value]="item.text">  
+  <button (click)="myFunc()">button</button>
+</div>

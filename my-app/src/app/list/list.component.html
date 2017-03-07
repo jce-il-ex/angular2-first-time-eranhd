@@ -1,0 +1,6 @@
+<app-item [item]="myList[0]"></app-item>
+<app-item [item]="myList[1]"></app-item>
+<app-item [item]="myList[2]"></app-item>
+<app-item [item]="myList[3]"></app-item>
+
+<app-item *ngFor='let item of myList' [item]="item"></app-item>
